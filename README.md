@@ -80,7 +80,7 @@ This file **copies all files** into the container and installs dependencies dire
 
 1. **Clone the Repository:**
 ```bash
-   git clone https://github.com/iemafzalhassan/online_shop.git
+   git clone https://github.com/iam-spaul/online_shop.git
    cd online_shop
 ```
 
@@ -97,7 +97,7 @@ This file **copies all files** into the container and installs dependencies dire
 4. **Docker Build & Run:**
 ```bash
    docker build -t online_shop:latest .
-   docker run -p 8080:80 online_shop:latest
+   docker run -p 8080:8080 online_shop:latest
 ```
 
 ---
