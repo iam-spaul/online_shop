@@ -32,7 +32,7 @@ The admin panel was **not responsive** and looked cluttered on smaller screens.
 - **Optimized font sizes & spacing** for a better UI experience.
 - Now, the admin panel is fully mobile-friendly.
 - Before
-- ![alt text](https://github.com/iam-spaul/online_shop/blob/final-phase1/Screenshot%202025-02-21%20010507.png)
+- [alt text](https://github.com/iam-spaul/online_shop/blob/final-phase1/Screenshot%202025-02-21%20010507.png)
 - After
 - ![alt text](https://github.com/iam-spaul/online_shop/blob/final-phase1/Screenshot%202025-02-21%20010636.png)
 
