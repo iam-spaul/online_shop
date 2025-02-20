@@ -3,7 +3,7 @@
 [![Stars](https://img.shields.io/github/stars/iemafzalhassan/online_shop)](https://github.com/iemafzalhassan/online_shop)
 ![Forks](https://img.shields.io/github/forks/iemafzalhassan/online_shop)
 ![GitHub last commit](https://img.shields.io/github/last-commit/iemafzalhassan/easyshop?color=red)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-iemafzalhassan-blue?logo=github&style=flat)](https://github.com/iemafzalhassan)
+
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
