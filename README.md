@@ -47,6 +47,9 @@ This file **copies all files** into the container and installs dependencies dire
 > **Why Multi-Stage?**
 > - Smaller final image (no dev dependencies)
 > - Improved security & efficiency
+> - ![Reduced 404MB to 12.8MB](![alt text](https://github.com/iam-spaul/online_shop/blob/final-phase1/Screenshot%202025-02-20%20230932.png))
+
+---
 
 ---
 
