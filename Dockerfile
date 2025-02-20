@@ -8,5 +8,8 @@ RUN npm install
 
 COPY . /app
 
-EXPOSE 5173
-CMD ["npm","run","dev","--","--host"]
+
+ENV PORT=${PORT}
+
+EXPOSE ${PORT}
+CMD ["sh", "-c", "npm run dev -- --host --port $PORT"]
