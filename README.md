@@ -81,6 +81,7 @@ This file **copies all files** into the container and installs dependencies dire
 1. **Clone the Repository:**
 ```bash
    git clone https://github.com/iam-spaul/online_shop.git
+   git checkout final-phase1
    cd online_shop
 ```
 
