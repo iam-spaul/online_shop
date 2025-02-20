@@ -40,8 +40,8 @@ The admin panel was **not responsive** and looked cluttered on smaller screens.
 This file **copies all files** into the container and installs dependencies directly, leading to a larger image size.
 
 #### Multi-Stage Dockerfile:
-- Uses a **builder stage** with `node:20-alpine` to install dependencies and build the React app.
-- Uses a **runner stage** with `nginx-unprivileged` for a lightweight production server.
+- Uses a **builder stage** with `node:18-alpine` to install dependencies and build the React app.
+- Uses a **runner stage** with `nginx:1.27.4-alpine-slim` for a lightweight production server.
 - Reduces image size and optimizes performance.
 
 > **Why Multi-Stage?**
@@ -122,9 +122,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any questions or feedback:
 - **Email:** [official.subhankarpaul@gmail.com](mailto:official.subhankarpaul@gmail.com)
-- **Name:**
+- **Name:** Subhankar Paul
 
 ---
 
-💪 **Good luck for the hackathon!** Happy coding! 🚀
+💪 **Thank you for reviewing my submission** Happy coding! 🚀
 
