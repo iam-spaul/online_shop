@@ -102,7 +102,7 @@ This file **copies all files** into the container and installs dependencies dire
 4. **Docker Build & Run:**
 ```bash
    docker build -t online_shop:latest .
-   docker run -p 8080:8080 online_shop:latest
+   docker run -d -e PORT=3000 -p 3000:3000 online_shop:latest
 ```
 
 ---

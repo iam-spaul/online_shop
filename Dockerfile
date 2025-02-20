@@ -2,11 +2,19 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package.json /app
+# Copy necessary package files
+COPY package*.json ./
+COPY vite.config.js ./
 
-RUN npm install
+# Install dependencies strictly according to package-lock.json
+RUN npm ci
 
-COPY . /app
+# Copy source files
+COPY src ./src/
+COPY public ./public/
+COPY index.html ./
+COPY index.css ./
+
 
 
 ENV PORT=${PORT}
