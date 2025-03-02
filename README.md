@@ -70,7 +70,7 @@ This file **copies all files** into the container and installs dependencies dire
 ## Submission Details
 
 ### GitHub Repository:
-[Online Shop - Hackathon Submission](https://github.com/iemafzalhassan/online_shop)
+[Online Shop - Hackathon Submission](https://github.com/iam-spaul/online_shop.git)
 
 ### Video Demo:
 [Demo Video Link - (YouTube/Google Drive)](YOUR_VIDEO_LINK_HERE)
